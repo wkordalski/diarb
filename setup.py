@@ -7,7 +7,7 @@ setup(
   [
     Extension("diarb",
     ['engine/engine.cpp', 'engine/renderer.cpp', 'engine/python.cpp'],
-	  libraries = ['boost_python3', 'sfml-window', 'sfml-graphics'],
+	  libraries = ['boost_python3', 'sfml-system', 'sfml-window', 'sfml-graphics'],
 	  extra_compile_args = ['-std=c++11'])
   ]
 )
